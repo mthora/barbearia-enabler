@@ -5,6 +5,8 @@
 	padding: 0;
 	border: 0;
     box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.25;
 }
 
 ul{
@@ -18,21 +20,25 @@ a{
 
 /*Estilos*/
 
-body{
-    background: url("no-filter-bg.png");
+html{
+    background: url("no-filter-bg.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 header{
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .flex{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .row{
     flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
 }
 
 header > div{
@@ -58,4 +64,55 @@ header > div{
 
 .nav-list > .active:hover{
     color:#c4c735
+}
+
+main{
+    margin: 1rem 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+.box{
+    background-color: #ffffff;
+    color: #1e1e1e;
+    border-radius: 20px;
+    width: 80%;
+    height: 25rem;
+    min-height: fit-content;
+    margin: 1rem auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.box-titulo{
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#missao strong{
+    color: #CE1B1B;
+    font-weight: normal;
+}
+
+.box article p, .box article strong, .box article em, .box article ul li{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.box article ul li{
+    list-style: disc;
+    margin: 1rem 1.25rem;
+}
+
+.beneficios{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-beneficios{
+    width: 18rem;
+    border-radius: 20px;
 }
