@@ -1,0 +1,50 @@
+.box{
+    background-color: rgba( 244, 244, 244, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 49, 0.199);
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(219, 192, 40, 0.18);
+    color: #1c1a29;
+    width: 80%;
+    height: 25rem;
+    min-height: fit-content;
+    margin: 2rem auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.box-titulo{
+    text-transform: uppercase;
+    color: #120e24;
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong{
+    color: rgb(24, 15, 51);
+    font-weight: bold;
+}
+
+.box article p, .box article strong, .box article em, .box article ul li{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.box article ul li{
+    list-style: disc;
+    margin: 1rem 1.25rem;
+}
+
+.beneficios{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-beneficios{
+    width: 18rem;
+    border-radius: 20px;
+}
