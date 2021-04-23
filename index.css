@@ -7,7 +7,7 @@ main{
 }
 
 .box{
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgba(2, 19, 2, 0.678);
     box-shadow: 0 8px 32px 0 rgba(40, 40, 49, 0.199);
     backdrop-filter: blur( 15px );
     border-radius: 10px;
@@ -30,7 +30,7 @@ main{
 }
 
 strong{
-    color:#CACC59;
+    color:#ffffff;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ section{
 
 @media only screen and (max-width: 480px){
     #img-beneficios{
-        visibility: hidden;
+        visibility: visible;
     }
 
     .flex{

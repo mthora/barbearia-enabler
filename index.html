@@ -14,13 +14,26 @@
 <body>
     <header class="item">
         <div class="flex row wrap">
-           <h1><img src="enabler-logo.png" alt="Logo da Barbearia Enabler" class="logo"></h1>
+            <h1><a href="index.html"><img src="enabler-logo.png" alt="Logo da Barbearia Enabler" class="logo"></a></h1>
            <nav class="nav-bar">
                <ul class="nav-list flex">
                    <li class="nav-item active"><a href="index.html">Home</a></li>
                    <li class="nav-item"><a href="produtos.html">Produtos</a></li>
-                   <li class="nav-item"><a href="#">Contato</a></li>
+                   <li class="nav-item"><a href="contato.html">Contato</a></li>
                </ul>
+           </nav>
+
+           <nav class="mobile">
+               <input type="checkbox" class="checkbox" id="nav-toggle">
+               <label for="nav-toggle" class="nav-label">
+                    <ul class="nav-list-mobile mobile">
+                        <li class="nav-mobile-item active"><a href="index.html">Home</a></li>
+                        <li class="nav-mobile-item"><a href="produtos.html">Produtos</a></li>
+                        <li class="nav-mobile-item"><a href="contato.html">Contato</a></li>
+                    </ul>
+                   <img src="menu.png" alt="Abrir menu" class="menu open">
+                   <img src="close.png" alt="Fechar menu" class="menu close">
+               </label>
            </nav>
         </div>
     </header>
@@ -37,7 +50,7 @@
 
         <section class="flex column">
             <h2 class="box-titulo">Benefícios</h2>
-            <div class="beneficios flex row">
+            <div class="beneficios flex row wrap">
                 <article>
                     <ul>
                         <li class="itens">Atendimento aos Clientes</li>

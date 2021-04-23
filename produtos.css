@@ -1,6 +1,6 @@
 main{
     width: 100%;
-    margin: 2rem auto;
+    margin: 0 auto;
     font-family: Roboto, sans-serif;
     min-height: calc(50vh);
     align-items: center;
@@ -27,21 +27,22 @@ main{
     display: flex;
     flex-flow: column wrap;
     min-width: fit-content;
-    width: 25%;
+    width: 30%;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .produtos li:hover {
     cursor: pointer;
-    padding: 2rem;
-    transition: 500ms;
+    margin: 1rem;
+    transition: 250ms;
 }
 
 .produtos li:hover h2{
-    color: #cdcf2e;
-    transition: 500ms;
+    color: #084918;
+    transition: 1s;
 }
 
 .titulo, .preco{

@@ -40,26 +40,28 @@ header > div{
 
 .logo{
     width: 8rem;
+    margin-bottom: 1rem;
 }
 
 .nav-item{
-    color: #D3D3C7;
+    color: #ffffff;
     margin-right: 1rem;
     text-transform: uppercase;
     font-family: Roboto, sans-serif;
     font-size: larger;
 }
 
-.nav-list > .active{
-    color: #CACC59;
+.active{
+    color: #19b340;
 }
 
 .nav-item:hover{
-    color: #fff;
+    color: #76f395;
+    transition: 500ms;
 }
 
 .nav-list > .active:hover{
-    color:#d3d60f
+    color:#53e076;
 }
 
 footer{
@@ -78,9 +80,61 @@ footer .logo{
     margin-bottom: 1rem;
 }
 
+.mobile{
+    display: none;
+}
+
+.checkbox{
+    display: none;
+}
+
+.menu{
+    height: 1.2rem;
+    filter: invert(1);
+}
+
 @media only screen and (min-height: 1100px){
     footer{
         position: absolute;
         bottom: 0;
     }
+}
+
+@media only screen and (max-width: 768px){
+    .mobile{
+        display: inline;
+    }
+
+    .nav-list-mobile{
+        color: rgb(211, 211, 211);
+        font-family: Roboto, sans-serif;
+        text-align: center;
+    }
+
+    .nav-list-mobile li{
+        margin-top: 1rem;
+        display: none;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .close{
+        display: none;
+    }
+
+    #nav-toggle:checked ~ label.nav-label .close {
+        display: inline;
+    }
+
+    #nav-toggle:checked ~ label.nav-label .open{
+        display: none;
+    }
+
+    #nav-toggle:checked ~ label.nav-label ul.nav-list-mobile li{
+        display: inline;
+        margin-right: 1rem;
+    }
+
 }
