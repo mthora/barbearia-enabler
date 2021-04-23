@@ -1,3 +1,11 @@
+main{
+    margin: 2rem;
+    font-family: Roboto, sans-serif;
+    min-height: calc(50vh);
+    align-items: center;
+    justify-self: center;
+}
+
 .box{
     background-color: rgba(0, 0, 0, 0.678);
     box-shadow: 0 8px 32px 0 rgba(40, 40, 49, 0.199);

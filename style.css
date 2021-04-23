@@ -62,13 +62,6 @@ header > div{
     color:#d3d60f
 }
 
-main{
-    margin: 2rem;
-    font-family: Roboto, sans-serif;
-    min-height: calc(50vh);
-    grid-area: main;
-}
-
 footer{
     width: 100%;
     background: url("bg.jpg") repeat;
