@@ -7,8 +7,14 @@ html{
     background-size: cover;
 }
 
+.grid{
+    display: grid;
+    grid-template-rows: 1200px 1200px 1200px;
+}
+
 header{
     padding: 2rem;
+    grid-area: header;
 }
 
 .flex{
@@ -17,6 +23,10 @@ header{
 
 .row{
     flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .column{
@@ -55,6 +65,8 @@ header > div{
 main{
     margin: 2rem;
     font-family: Roboto, sans-serif;
+    min-height: calc(50vh);
+    grid-area: main;
 }
 
 footer{
@@ -66,8 +78,16 @@ footer{
     color: #acacac;
     text-align: center;
     margin-top: 5rem;
+    grid-area: footer;
 }
 
 footer .logo{
     margin-bottom: 1rem;
+}
+
+@media only screen and (min-height: 1100px){
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
