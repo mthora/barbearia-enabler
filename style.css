@@ -94,6 +94,10 @@ footer .logo{
     filter: invert(1);
 }
 
+.menu:hover{
+    cursor: pointer;
+}
+
 @media only screen and (min-height: 1100px){
     footer{
         position: absolute;
