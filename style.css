@@ -74,6 +74,7 @@ footer{
     text-align: center;
     margin-top: 5rem;
     grid-area: footer;
+    font-family: Roboto, sans-serif;
 }
 
 footer .logo{
