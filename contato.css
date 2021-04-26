@@ -1,0 +1,76 @@
+.contato{
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    margin: 1rem 2rem;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.input-padrao{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 75%;
+    font-family: Roboto, sans-serif;
+}
+
+.botao-m{
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+}
+
+legend{
+    margin-bottom: 8px;
+}
+
+input[type="submit"]{
+    background-color: rgb(33, 153, 33);
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color:  rgb(33, 153, 33);
+    transition: 0.5s;
+}
+
+.checkbox-form{
+    margin-bottom: 16px;
+}
+
+
+table{
+    width: 75%;
+    min-width: fit-content;
+    margin: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.678);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 49, 0.199);
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    color: #ccc9db;
+}
+
+table *{
+    font-family: Roboto, sans-serif;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 2px rgba(124, 112, 112, 0.514);
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.678);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 49, 0.199);
+    backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur( 15px );
+    color: #ccc9db;
+}
+
+h2{
+    font-size: 28px;
+}
